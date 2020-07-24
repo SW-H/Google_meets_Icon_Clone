@@ -1,0 +1,52 @@
+.stage{
+    display: flex;
+    flex-direction: column;
+
+    width: 527px;
+    height: 250px;
+    border-radius: 10px;
+    
+    background-color: #202124;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Roboto", aril, sans-serif;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size:15px;
+    color:white;
+    margin : 15px 0;
+}
+
+.button_container{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size:8px;
+    font-family: "Roboto", aril, sans-serif;
+    border-radius: 5px;
+    background-color: #4db6ac;
+}
+
+img {
+    width: 50px;
+
+}
+button {
+    border: none;
+    color: black;
+    text-decoration: none;
+}
